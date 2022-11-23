@@ -43,6 +43,11 @@ namespace Method
             tboxResult.Text = Convert.ToString(iResult);
         }
 
+        private int fMinus(int iA, int iB)
+        {
+            return iA - iB;
+        }
+
         private void Multiply_Click(object sender, EventArgs e)
         {
             int iResult;
